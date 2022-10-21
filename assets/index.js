@@ -76,7 +76,7 @@ inquirer
   <a href="#Installation">Installation</a><br />
   <a href="#Usage">Usage</a><br />
   <a href="#How-to-Contribute-to-This-Repository">Contributing</a><br />
-  <a href="#To-run-tests,-run-the-following-command:">Tests</a><br />
+  <a href="#To-run-tests,-run-the-following-command">Tests</a><br />
   <a href="#Questions">Questions</a><br />
 
   ## Installation
