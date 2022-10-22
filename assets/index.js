@@ -1,7 +1,8 @@
+//importing file saving functionality as well as inquirer functionality
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-
+//these are the questions the user will be asked by inquirer
 inquirer
   .prompt([
     {
@@ -54,17 +55,18 @@ inquirer
     }
 
   ])
+  //file gets written by calling te generateReadme function
   .then((data) => {
     console.log(data)
-    fs.appendFile("GENERATED_README.MD",generateReadme(data), (err) =>{
+    fs.writeFile("GENERATED_README.MD",generateReadme(data), (err) =>{
       err ? console.log(err): console.log("readme generated!")
     }) 
   });
  
 
-
+  //this function contains the template literal that will fill the content of the readme
   function generateReadme(data){
-    //title
+
     return `# ${data.title}
   ## Description
 
@@ -103,16 +105,9 @@ inquirer
   To see more of my work, please visit:
   <a href=\"https://github.com/${data.github}\">My Github Page</a>`
 
-//<a href="http://www.google.com">google</a>
-  
-  
-
-
-
-
-
   }
 
+  //this is a helper function for selecting the license badge with a switch statement
 function generateLicenseBadge (data) {
 
     switch(data.license){
