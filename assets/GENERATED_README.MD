@@ -1,9 +1,9 @@
-# My 
+# My Readme Generator
   ## Description
 
-    It is a useful Readme Generator
+    it generates amazing readmes from the command line!
 
-  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
   ## Table of Contents
 
@@ -17,22 +17,22 @@
 
     To install the necessary dependancies, run the following command:
 
-      npm test
+      npm install
 
   ## Usage
 
-    cd ..
+    clone it down and run index.js from the command line with node!
     
   ## How to Contribute to This Repository:
 
-    cd ..
+    contact me via email or on github
     
   ## To run tests, run the following command:
 
-    cd ..
+    npm test
     
   ## Questions
   If you have any questions about this project, feel free to reach out to me at:
-  <a href="ls">ls</a>.  
+  <a href="mseaman26@gmail.com">mseaman26@gmail.com</a>.  
   To see more of my work, please visit:
-  <a href="https://github.com/asdlf">My Github Page</a>
+  <a href="https://github.com/mseaman26">My Github Page</a>
